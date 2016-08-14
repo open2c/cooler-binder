@@ -1,0 +1,17 @@
+name: cooler_binder
+dependencies:
+- python=3.5
+- six
+- nose
+- mock
+- numpy
+- scipy
+- cython
+- h5py
+- pandas
+- matplotlib
+- seaborn
+- pip>=7.1
+- pip:
+  - https://bitbucket.org/mirnylab/mirnylib/get/tip.tar.gz
+  - git+git://github.com/mirnylab/cooler.git
