@@ -10,6 +10,6 @@ To run the code in a cell, press `shift+enter`. Individual cells can then be mod
 
 If you are experiencing delays, please check the Binder [system status](http://mybinder.org/status).
 
-This walkthrough was built using open source [Jupyter Notebook](http://jupyter.org/) and [Binder](http://mybinder.org/). If you're interested, you can watch (or skim through) this 30-min video tutorial on Jupyter Notebooks:
+This walkthrough was built using open source [Jupyter Notebook](http://jupyter.org/) and [Binder](http://mybinder.org/) projects. If you're interested, you can watch (or skim through) this 30-min video tutorial on Jupyter Notebooks:
 
 [![Intro to Jupyter](http://img.youtube.com/vi/e9cSF3eVQv0/0.jpg)](https://www.youtube.com/watch?v=e9cSF3eVQv0)
