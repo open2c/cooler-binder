@@ -4,7 +4,7 @@ Try out `cooler` with a brief interactive tutorial by clicking this here button 
 
 It will launch a "Binder" application using the code in this repository.
 
-To start, after launching the binder, simply click on `the cooler_quickstart.ipynb` IPython notebook. 
+To start, after launching the binder, simply click on  **cooler_quickstart.ipynb** IPython notebook. 
 
 To run the code in a cell, press `shift+enter`. Individual cells can then be modified and re-run. To flush the current set of variables, restart the notebook kernel from the Kernel menu.
 
