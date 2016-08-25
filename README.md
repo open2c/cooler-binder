@@ -1,4 +1,4 @@
-# `cooler` tutorial
+# Cooler tutorial
 
 Try out `cooler` with a brief interactive tutorial by clicking this here button --> [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org:/repo/mirnylab/cooler-binder)
 
