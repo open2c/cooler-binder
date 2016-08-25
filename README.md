@@ -1,6 +1,6 @@
 # `cooler` tutorial
 
-- Try out `cooler` with a brief interactive tutorial by clicking --> [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org:/repo/mirnylab/cooler-binder)
+Try out `cooler` with a brief interactive tutorial by clicking this here button --> [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org:/repo/mirnylab/cooler-binder)
 
 It will launch a "Binder" application using the code in this repository.
 
