@@ -16,3 +16,4 @@ dependencies:
   - https://bitbucket.org/mirnylab/mirnylib/get/tip.tar.gz
   - git+git://github.com/mirnylab/cooler.git
   - pysam
+  - pyfaidx
