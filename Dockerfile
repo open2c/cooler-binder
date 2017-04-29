@@ -1,12 +1,12 @@
 FROM andrewosh/binder-python-3.5-mini:latest
 
 # Modified prefix from https://github.com/binder-project/binder-build-core/blob/master/lib/builder.js#L110
-RUN mkdir /home/main/notebooks
-RUN chown main:main /home/main/notebooks
-WORKDIR /home/main/notebooks
-USER root
-COPY . /home/main/notebooks
-RUN chown -R main:main $HOME/notebooks
+# RUN mkdir /home/main/notebooks
+# RUN chown main:main /home/main/notebooks
+# WORKDIR /home/main/notebooks
+# USER root
+# COPY . /home/main/notebooks
+# RUN chown -R main:main $HOME/notebooks
 
 USER main
 RUN test -d $HOME/.jupyter || mkdir $HOME/.jupyter
