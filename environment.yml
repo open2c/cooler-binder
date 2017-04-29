@@ -1,6 +1,12 @@
 name: cooler_binder
+channels:
+  - conda-forge
+  - defaults
+  - r
+  - bioconda
 dependencies:
 - python=3.5
+- jupyter
 - six
 - nose
 - mock
@@ -9,11 +15,13 @@ dependencies:
 - cython
 - h5py
 - pandas
+- dask
 - matplotlib
 - seaborn
+- pysam
+- pyfaidx
 - pip>=7.1
 - pip:
   - https://bitbucket.org/mirnylab/mirnylib/get/tip.tar.gz
   - git+git://github.com/mirnylab/cooler.git
-  - pysam
-  - pyfaidx
+

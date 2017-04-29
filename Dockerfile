@@ -1,23 +1,18 @@
-FROM andrewosh/binder-base:latest
+FROM andrewosh/binder-python-3.5-mini:latest
 
-RUN mkdir -p /home/main/notebooks
-RUN chown main:main /home/main/notebooks
-WORKDIR /home/main/notebooks
+MAINTAINER Nezar Abdennur <nabdennur@gmail.com>
 
+# system dependencies
 USER root
 RUN apt-get update && apt-get install pigz tabix
-COPY . /home/main/notebooks/
-RUN chown -R main:main $HOME/notebooks
 
+# set up environment
 USER main
-ENV LC_ALL C.UTF-8
-ENV LANG C.UTF-8 
-RUN find $HOME/notebooks -name '*.ipynb' -exec jupyter trust {} \;
 ADD environment.yml environment.yml
 RUN conda env create -n binder
-RUN echo "export PATH=/home/main/anaconda2/envs/binder/bin/:/home/main/anaconda3/envs/binder/bin/:$PATH" >> ~/.binder_start
-RUN conda install -n binder jupyter
-RUN /bin/bash -c "source activate binder && jupyter kernelspec install-self --user"
+RUN /bin/bash -c "source activate binder"
 
 USER main
 WORKDIR $HOME/notebooks
+RUN mkdir -p $HOME/.jupyter
+RUN echo "c.NotebookApp.token = ''" >> $HOME/.jupyter/jupyter_notebook_config.py
