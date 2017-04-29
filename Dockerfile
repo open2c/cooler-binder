@@ -31,4 +31,5 @@ RUN /bin/bash -c "source activate binder && jupyter kernelspec install-self --us
 
 # Suffix from https://github.com/binder-project/binder-build-core/blob/master/lib/builder.js#L110
 USER main
+RUN jupyter-notebook --ip 0.0.0.0
 WORKDIR $HOME/notebooks
