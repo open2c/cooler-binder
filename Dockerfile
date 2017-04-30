@@ -27,7 +27,6 @@ RUN conda env create -n binder
 RUN echo "export PATH=$HOME/miniconda3/envs/binder/bin/:$PATH" >> ~/.binder_start
 RUN conda install -n binder jupyter
 RUN /bin/bash -c "source activate binder && jupyter kernelspec install-self --user"
-RUN jupyter-notebook --ip 0.0.0.0
 
 # Suffix from https://github.com/binder-project/binder-build-core/blob/master/lib/builder.js#L110
 # USER main
