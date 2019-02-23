@@ -22,6 +22,7 @@ dependencies:
 - seaborn
 - pysam
 - pyfaidx
+- pairix
 - pip>=7.1
 - pip:
   - https://bitbucket.org/mirnylab/mirnylib/get/tip.tar.gz
