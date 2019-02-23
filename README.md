@@ -19,10 +19,6 @@ To start, after launching the binder, simply click on one of the IPython Noteboo
 
 To run the code in a cell, press `shift+enter`. Individual cells can then be modified and re-run. To flush the current set of variables, restart the notebook kernel from the Kernel menu.
 
-This walkthrough was built using open source [Jupyter Notebook](http://jupyter.org/) and [Binder](http://mybinder.org/) projects. If you're interested, you can watch (or skim through) this 30-min video tutorial on Jupyter Notebooks:
+This walkthrough was built using open source [Jupyter Notebook](http://jupyter.org/) and [Binder](http://mybinder.org/) projects.
 
-<p align="center">
-<a href="https://www.youtube.com/watch?v=e9cSF3eVQv0">
-	<img src="http://img.youtube.com/vi/e9cSF3eVQv0/0.jpg" alt="Intro to Jupyter Notebook">
-</a>
-</p>
+Also see the notebooks from our [Hi-C data analysis bootcamp](https://github.com/hms-dbmi/hic-data-analysis-bootcamp).

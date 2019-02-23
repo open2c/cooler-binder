@@ -2,10 +2,9 @@ name: cooler_binder
 channels:
   - conda-forge
   - defaults
-  - r
   - bioconda
 dependencies:
-- python=3.5
+- python=3.6
 - six
 - nose
 - mock
@@ -14,6 +13,10 @@ dependencies:
 - cython
 - h5py
 - pandas
+- numba
+- cytoolz
+- jupyter
+- ipywidgets
 - dask
 - matplotlib
 - seaborn
@@ -22,5 +25,5 @@ dependencies:
 - pip>=7.1
 - pip:
   - https://bitbucket.org/mirnylab/mirnylib/get/tip.tar.gz
-  - git+git://github.com/mirnylab/cooler.git
+  - cooler
 
